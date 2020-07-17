@@ -4,9 +4,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  animation-name: bg-animation;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
   background: linear-gradient(
       to top right,
       rgb(0, 0, 0),

@@ -2,6 +2,8 @@
   text-align: right;
   margin-top: 1em;
   margin-right: 3.5em;
+  animation-name: skills-animation;
+  animation-duration: 3s;
 }
 
 .skills-ul li {
@@ -26,10 +28,30 @@
 
 .fa-react {
   color: #61dbfb;
+  animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
 
 .fa-node-js {
   color: #83cd29;
+}
+
+@media (max-width: 400px) {
+  .skills-container {
+    margin-top: 0.2em;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .skills-ul li {
+    font-size: 10vw;
+  }
 }
 
 @media (min-width: 401px) and (max-width: 767px) {
@@ -47,14 +69,23 @@
   }
 }
 
-@media (max-width: 400px) {
-  .skills-container {
-    margin-top: 0.2em;
-    text-align: center;
-    margin-right: 0;
-  }
-
-  .skills-ul li {
-    font-size: 10vw;
+@media (min-width: 768px) {
+  @keyframes skills-animation {
+    0% {
+      opacity: 0;
+      transform: translate(-4em);
+    }
+    25% {
+      opacity: 0.25;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    75% {
+      opacity: 0.75;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 }
