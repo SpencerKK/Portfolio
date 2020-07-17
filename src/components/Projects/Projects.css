@@ -1,0 +1,16 @@
+.projects-wrapper {
+  font-family: 'Roboto Condensed';
+}
+
+/* .list {
+
+} */
+
+.list-item {
+  background: #000;
+  height: 3em;
+  width: 3em;
+  margin: 0 10em;
+  border: 1px solid pink;
+  display: inline;
+}

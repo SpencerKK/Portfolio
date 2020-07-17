@@ -1,0 +1,60 @@
+.skills-container {
+  text-align: right;
+  margin-top: 1em;
+  margin-right: 3.5em;
+}
+
+.skills-ul li {
+  font-size: 2.5em;
+  display: inline;
+  padding: 0.5vw;
+  margin: 0;
+}
+
+/* Icons */
+.fa-html5 {
+  color: #ea652b;
+}
+
+.fa-css3-alt {
+  color: #016db4;
+}
+
+.fa-js {
+  color: #f8e117;
+}
+
+.fa-react {
+  color: #61dbfb;
+}
+
+.fa-node-js {
+  color: #83cd29;
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .skills-container {
+    text-align: center;
+    margin-top: 0.5em;
+    margin-right: 0;
+  }
+
+  .skills-ul li {
+    font-size: 2.5em;
+    display: inline;
+    padding: 0.5vw;
+    margin: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .skills-container {
+    margin-top: 0.2em;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .skills-ul li {
+    font-size: 10vw;
+  }
+}
