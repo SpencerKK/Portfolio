@@ -1,69 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
 .projects-container {
-    font-family: Inter;
-    margin: 0 auto;
-    margin-top: 5em;
-    padding: 2em;
-    background: #f0f0f0;
-    max-width: 85%;
+  font-family: Inter;
+  margin: 0 auto;
+  margin-top: 5em;
+  padding: 2em;
+  background: #f0f0f0;
+  max-width: 85%;
 }
 
 .projects-title {
-    text-align: center;
-    max-width: 50%;
-    margin: 1em auto;
-    font-size: 3em;
-    font-weight: 700;
+  text-align: center;
+  max-width: 50%;
+  margin: 1em auto;
+  font-size: 3em;
+  font-weight: 700;
 }
 
 .projects-ul {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .projects-ul li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 /* Card */
 .project-card {
-    font-family: Inter;
-    width: 15em;
-    margin: 0 3vw;
-    min-height: 25em;
+  font-family: Inter;
+  width: 15em;
+  margin: 0 3vw;
+  margin-bottom: 4em;
+  min-height: 25em;
 }
 
-
 .project-card img {
-    width: 100%;
-    border: 1px solid #000;
-    border-radius: 7px;
-    
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 7px;
 }
 
 .card-detail {
-    padding: 1em;
-    min-height: 10em;
+  padding: 1em;
+  min-height: 10em;
 }
 
 .card-detail h2 {
-    margin-bottom: 0.5em;
-    font-weight: 600;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+.card-detail button {
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-right: 1em;
+  border: none;
+  background: rgba(0, 0, 0, 0.781);
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.card-detail button:hover {
+  background: rgba(0, 0, 0, 0.502);
+}
+
+.card-detail a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .project-desc {
-    line-height: 2;
+  line-height: 2;
 }
-
-/* @media (max-width: 1138px) {
-    .projects-ul {
-        display: block;
-    }
-
-    .project-card {
-        width: 50%;
-        margin: 3em auto;
-    }
-} */
