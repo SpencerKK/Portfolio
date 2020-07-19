@@ -5,14 +5,14 @@
     margin: 0 auto;
     margin-top: 5em;
     padding: 2em;
-    background: #e9e9e9;
+    background: #f0f0f0;
     max-width: 85%;
 }
 
 .projects-title {
     text-align: center;
-    margin: 1em auto;
     max-width: 50%;
+    margin: 1em auto;
     font-size: 3em;
     font-weight: 700;
 }
@@ -20,7 +20,7 @@
 .projects-ul {
     display: flex;
     justify-content: center;
-
+    flex-wrap: wrap
 }
 
 .projects-ul li {
