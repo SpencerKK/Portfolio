@@ -37,8 +37,8 @@ const Projects = () => {
             <div className="project-card">
               <img src={project.src} />
               <div className="card-detail">
-                <h1>{project.title}</h1>
-                <p>{project.desc}</p>
+                <h2>{project.title}</h2>
+                <p className='project-desc'>{project.desc}</p>
               </div>
             </div>
           </li>
