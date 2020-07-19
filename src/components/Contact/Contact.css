@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.contact-container {
+  font-family: Inter;
+  text-align: center;
+  height: 10em;
+  max-width: 60%;
+  margin: 5em auto;
+}
+
+.contact-container h1 {
+  font-size: 3em;
+  margin-bottom: 2vh;
+}
+
+.contact-container p {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 0.9em;
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
+
+.contact-info p {
+  font-weight: 400;
+  margin: 0.5em 2em;
+  text-decoration: underline;
+  color: rgba(0, 143, 0, 0.851);
+}
