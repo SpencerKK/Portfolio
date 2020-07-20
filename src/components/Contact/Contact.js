@@ -8,7 +8,7 @@ const Contact = () => {
       <p>My name is Spencer Kenealy and I am currently looking for employment as a React developer. Please feel free to contact me any time!</p>
       <div className='contact-info'>
         <p>(310) 728-5515</p>
-        <p>kenealys@me.com</p>
+        <p><a href='mailto:kenealys@me.com'>kenealys@me.com</a></p>
       </div>
     </div>
   );

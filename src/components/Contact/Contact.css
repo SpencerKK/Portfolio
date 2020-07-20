@@ -31,5 +31,8 @@
   font-weight: 400;
   margin: 0.5em 2em;
   text-decoration: underline;
-  color: rgba(0, 143, 0, 0.851);
+}
+
+.contact-info a {
+  color: #000;
 }

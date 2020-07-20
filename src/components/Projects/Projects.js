@@ -39,9 +39,9 @@ const Projects = () => {
       <h1 className='projects-title'>Projects</h1>
       <ul className="projects-ul">
         {projectsArr.map((project) => (
-          <li>
+          <li key={project.title}>
             <div className="project-card">
-              <img src={project.src} />
+              <img src={project.src} alt={project.title + ' Screenshot'} />
               <div className="card-detail">
                 <h2>{project.title}</h2>
                 <p className='project-desc'>{project.desc}</p>

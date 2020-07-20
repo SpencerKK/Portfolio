@@ -6,13 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(
-      to top right,
-      rgb(0, 0, 0),
-      rgba(234, 255, 6, 0.276)
-    ),
-    url('../../img/bg-image.jpg') no-repeat fixed;
-  background-size: cover;
+  background: rgba(0, 0, 0, 0.927);
 }
 
 .banner-slug {
