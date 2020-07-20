@@ -36,3 +36,7 @@
 .contact-info a {
   color: #000;
 }
+
+.contact-info a:hover {
+  color: rgb(0, 94, 255);
+}
